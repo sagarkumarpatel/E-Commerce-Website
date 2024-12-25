@@ -1,57 +1,49 @@
-*{
-    font-family:sans-serif;
-
+* {
+  font-family: sans-serif;
 }
-body{
-    border-radius:20px;
-    background-color:#D9EAFD;
+body {
+  border-radius: 20px;
+  background-color: #d9eafd;
 }
-#login-div{
-    display:grid;
-    /* justify-content: center;
+#login-div {
+  display: grid;
+  /* justify-content: center;
     align-items: center; */
-    padding-top: 140px;
-    place-items: center;
-    height: 500px;
-    text-align: center;
-    border: none;
-    border-radius: 15px;
-    /* background-color:#FADA7A; */
-    background-image: url("https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg?t=st=1735133525~exp=1735137125~hmac=32fe545b0ecdd6e11f121d428af3841627030e1f041e20f2fcb6a0086184b582&w=996");
-    background-size: cover;
-
-
-
-}
-#last-line{
-    background-color:rgb(23, 141, 245) ;
-    width: 100%;
-    display: block;
+  padding-top: 140px;
+  place-items: center;
+  height: 500px;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  /* background-color:#FADA7A; */
+  background-image: url("https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg?t=st=1735133525~exp=1735137125~hmac=32fe545b0ecdd6e11f121d428af3841627030e1f041e20f2fcb6a0086184b582&w=996");
+  background-size: cover;
 }
 
-.login-details{
-    border-radius: 10px;
-    width: 300px;
+.login-details {
+  border-radius: 15px;
+  width: 300px;
+  height: 30px;
 }
-#login-button{
-    border-radius: 13px;
-    height: 30px;
-    width: 300px;
-    position: relative;
-    left: 45px;
+#login-button {
+  border-radius: 13px;
+  height: 30px;
+  width: 300px;
+  position: relative;
+  left: 45px;
 }
-#signup-button{
-    border-radius: 13px;
-    height: 30px;
-    width: 300px;
-    position: relative;
-    left: 45px;
+#signup-button {
+  border-radius: 13px;
+  height: 30px;
+  width: 300px;
+  position: relative;
+  left: 45px;
 }
-#continue-button{
-    margin-top:7px ;
-    border-radius: 13px;
-    height: 30px;
-    width: 300px;
-    position: relative;
-    left: 45px;
+#continue-button {
+  margin-top: 7px;
+  border-radius: 13px;
+  height: 30px;
+  width: 300px;
+  position: relative;
+  left: 45px;
 }
