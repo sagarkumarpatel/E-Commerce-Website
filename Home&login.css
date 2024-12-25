@@ -1,0 +1,27 @@
+#home{
+    text-decoration:none;
+    font-size:25px;
+    font-weight:bold;
+    color: white;
+    margin-left: 60px;
+}
+#login{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+#search_logo{
+        height: 26px;
+        position:relative;
+        left: 589px; 
+        border-radius: 13px;
+        padding-right:10px;
+        padding-left: 10px;
+        background-color: yellow;
+      }
+
+     
+
+
+
