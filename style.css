@@ -98,6 +98,10 @@ footer {
   position: fixed;
   top: 40rem;
 }
+#aboutus{
+  text-decoration: none;
+  color: white;
+}
 
 #item2 {
   display: flex;
@@ -108,4 +112,8 @@ footer {
 
 #item2 li {
   margin-right: 70px;
+}
+a{
+  color: white;
+  text-decoration: none;
 }

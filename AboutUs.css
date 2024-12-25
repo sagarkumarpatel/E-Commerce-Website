@@ -1,0 +1,119 @@
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    color: white;
+  }
+  #firstHead {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color:#023047;
+    position: fixed;
+  }
+  #item {
+    display: flex;
+    margin: 0 17px;
+    align-items: center;
+  }
+  li {
+    margin: 0 90px;
+    list-style-type: none;
+  }
+  #item li {
+    margin-right: 20px;
+  }
+  
+  #logo {
+    height: 60px;
+    border-radius: 50%;
+  }
+  #logo_name {
+    margin-left: 10px;
+  }
+  
+  #search {
+    margin-left: 100px;
+    height: 27px;
+    border: none;
+    border-radius: 24px;
+    flex-grow: 1;
+    margin-left: 0px;
+    width: 500px;
+  }
+  #setting_icon {
+    height: 20px;
+    position: relative;
+    left: 34px;
+  }
+  
+    #cart{
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 25px;
+      color: white;
+    }
+
+    body{
+        background-image: url("https://img.freepik.com/free-photo/flat-lay-desktop-with-agenda-magnifying-glass_23-2148397834.jpg?t=st=1735152330~exp=1735155930~hmac=a09e3619734de0faa2207998d8bc3d7fc2f6f9e8464c31071cf290e1b34b0bd8&w=996");
+        background-size: cover;
+    }
+
+    
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .box {
+    height: 550px;
+    width: 250px;
+  
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(234, 232, 232);
+    margin:5px;
+    margin-top: 100px;
+    margin-bottom: 6rem;
+    margin-left: 20px;
+    color: black;
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  
+  #img1 {
+    height: 350px;
+    margin: 23px;
+    border-radius: 15px;
+  }
+  #name{
+    padding: 20px;
+    font-weight: bold;
+  }
+
+    footer {
+        height: 105px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #023047;
+        padding: 0 20px;
+        position: fixed;
+        top: 40rem;
+      }
+    
+      
+      #item2 {
+        display: flex;
+        margin: 0 20px;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      
+      #item2 li {
+        margin-right: 70px;
+      }
+      
